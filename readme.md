@@ -13,33 +13,60 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+Under `tailwind.config.js`, put in the following content:
 
-## Gallery
-
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
-
-## Thanks to
-
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
 ```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+module.exports = {
+    daisyui: {
+      themes: [
+        {
+          rosepine: {
+           "primary": "#c4a7e7",
+           "secondary": "#ebbcba",
+           "accent": "#f6c177",
+           "neutral": "#191724",
+           "base-100": "#1f1d2e",
+           "info": "#31748f",
+           "success": "#9ccfd8",
+           "warning": "#f6c177",
+           "error": "#eb6f92",
+          },
+          {
+          rosepine-moon: {
+           "primary": "#c4a7e7",
+           "secondary": "#ea9a97",
+           "accent": "#c4a7e7",
+           "neutral": "#2a273f",
+           "base-100": "#232136",
+           "info": "#3e8fb0",
+           "success": "#9ccfd8",
+           "warning": "#f6c177",
+           "error": "#eb6f92",
+          },
+         {
+          rosepine-dawn: {
+           "primary": "#907aa9",
+           "secondary": "#d7827e",
+           "accent": "#907aa9",
+           "neutral": "#faf4ed",
+           "base-100": "#fffaf3",
+           "info": "#286983",
+           "success": "#56949f",
+           "warning": "#ea9d34",
+           "error": "#b4637a",
+          },
+        },
+      ],
+    },
+    plugins: [
+      require('daisyui'),
+    ],
+    //...
+  }  
+  ```
+  
+  And then follow https://daisyui.com/docs/themes/ to apply them.
+  
+  ## Gallery
+  
+  ![image](https://user-images.githubusercontent.com/44733677/175751747-789d9c64-3cd0-47dd-8c1e-76d2da17f0b7.png)
