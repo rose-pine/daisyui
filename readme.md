@@ -15,7 +15,7 @@
 
 Under `tailwind.config.js`, put in the following content:
 
-```
+```js
 module.exports = {
     daisyui: {
       themes: [
