@@ -32,7 +32,7 @@ module.exports = {
            "error": "#eb6f92",
           },
           {
-          rosepine-moon: {
+          'rosepine-moon': {
            "primary": "#c4a7e7",
            "secondary": "#ea9a97",
            "accent": "#c4a7e7",
@@ -44,7 +44,7 @@ module.exports = {
            "error": "#eb6f92",
           },
          {
-          rosepine-dawn: {
+          'rosepine-dawn': {
            "primary": "#907aa9",
            "secondary": "#d7827e",
            "accent": "#907aa9",
