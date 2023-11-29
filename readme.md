@@ -31,7 +31,6 @@ module.exports = {
            "warning": "#f6c177",
            "error": "#eb6f92",
           },
-          {
           'rosepine-moon': {
            "primary": "#c4a7e7",
            "secondary": "#ea9a97",
@@ -43,7 +42,6 @@ module.exports = {
            "warning": "#f6c177",
            "error": "#eb6f92",
           },
-         {
           'rosepine-dawn': {
            "primary": "#907aa9",
            "secondary": "#d7827e",
